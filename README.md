@@ -10,12 +10,17 @@ make
 make clean
 ```
 
+What happens for N=50? N=100?  Can you find and fix the bug in main.cpp?  Try using Valgrind:
+
+```
+valgrind --tool=memcheck ./ex06
+```
+
 ## generate executable in Release mode, test, and install to ~/bin (using CMake)
 
 
 ```
 ls -l ~/bin
-
 ```
 
 From the "build" directory...
